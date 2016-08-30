@@ -7,9 +7,7 @@ test/data
 /*.log
 /target/
 /out/
-/target-eclipse/
-c.tld
-fmt.tld
+*.tld
 # IntelliJ IDEA files below
 
 *.iml
@@ -20,3 +18,6 @@ fmt.tld
 .asscache
 bower_components
 node_modules
+compiled
+.idea
+*.xml
