@@ -1,0 +1,22 @@
+.project
+test/data
+*.iws
+.settings
+/*.zip
+/plugin.xml
+/*.log
+/target/
+/out/
+/target-eclipse/
+c.tld
+fmt.tld
+# IntelliJ IDEA files below
+
+*.iml
+*.ipr
+.idea/
+.sass-cache/
+/bin/
+.asscache
+bower_components
+node_modules
