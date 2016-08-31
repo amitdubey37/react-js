@@ -12,6 +12,7 @@
     "babel-preset-react-hmre": "1.1.1"
   },
   "devDependencies": {
+    "express": "^4.11.0",
     "babel-core": "^6.3.21",
     "babel-eslint": "^5.0.0-beta6",
     "babel-loader": "^6.2.0",
@@ -34,7 +35,8 @@
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "webpack":"./node_modules/.bin/webpack --watch"
+     "webpack":"./node_modules/.bin/webpack --watch",
+     "start": "node server.js | ./node_modules/.bin/webpack --watch "
   },
   "repository": {
     "type": "git",
