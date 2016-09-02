@@ -9,8 +9,14 @@ export default class TodoForm extends React.Component{
 
      handleSubmit(e){
         e.preventDefault()
-         this.props.onFormSubmit(this.state.item);
-         this.setState({item: ''});
+        if(this.state.item.replace(/ /g,'') == ''){
+
+        }
+        else{
+          this.props.onFormSubmit(this.state.item);
+          this.setState({item: ''});
+        }
+
          ReactDOM.findDOMNode(this.refs.item).focus(); return;
        }
      onChange(e){
