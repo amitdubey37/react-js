@@ -27,7 +27,7 @@ export default class SayHello extends React.Component {
   The old props can be accessed via this.props. Calling this.setState() within this function will not trigger an additional render.**/
   componentWillReceiveProps(nextProps){
     this.setState({
-    users: nextProps.likeCount > this.props.likeCount
+    likes: nextProps.likeCount > this.props.likeCount
   });
   }
 /**Invoked before rendering when new props or state are being received. This method is not called for the initial render or when
